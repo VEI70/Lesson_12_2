@@ -14,5 +14,5 @@ def static_dir(path):
     return send_from_directory("uploads/images", path)
 
 
-app.run(debug=True)
+app.run()
 
